@@ -44,5 +44,36 @@ person[selection] = 'Jillian';
 console.log(person.neim);
 
 //Array initialisation
-let selectedcolors = ['red', 'blue'];
-console.log(selectedcolors[1])
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
+console.log(selectedColors.length);
+
+
+//functions
+function greet(){
+    console.log('Hello World');
+}
+
+greet();
+
+function greetme(naim){
+    console.log('Hello ' + naim);
+}
+
+greetme('Newton');
+greetme('Jillian');
+
+function greetus(fname, lname){
+    console.log('Hello ' + fname + ' ' + lname);
+}
+
+greetus('Newton', 'Jillian');
+
+//calculating
+
+function square(number){
+    return number * number;
+}
+
+let number = square(6);
+console.log(number);
