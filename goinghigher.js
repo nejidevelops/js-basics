@@ -17,3 +17,14 @@ function sumLap(){
 }
 
 sumLap()
+
+let lapsCompleted = 0;
+
+function lapsIncreased(){
+    lapsCompleted = lapsCompleted + 1;
+}
+
+lapsIncreased()
+lapsIncreased()
+lapsIncreased()
+console.log(lapsCompleted)
