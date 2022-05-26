@@ -28,3 +28,8 @@ lapsIncreased()
 lapsIncreased()
 lapsIncreased()
 console.log(lapsCompleted)
+
+
+let message = "You have tree new notifications";
+
+console.log(message)
