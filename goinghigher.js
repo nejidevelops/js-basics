@@ -9,7 +9,11 @@ let lap2 = 33
 let lap3 = 36
 
 function sumLap(){
-    console.log(lap1 + lap2 + lap3);
+    // console.log(lap1 + lap2 + lap3);
+    // or you can do this
+
+    totalLap = lap1 + lap2 + lap3;
+    console.log(totalLap)
 }
 
 sumLap()
