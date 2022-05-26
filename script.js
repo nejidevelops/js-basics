@@ -1,7 +1,7 @@
 console.log('Hello World!');
 
 let name = 'Newton'; //String Literal
-console.log(name);
+console.log(this.name);
 
 let age = 20; //Number Literal
 console.log(age);
